@@ -27,11 +27,11 @@ export default function RootLayout({
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )}>
-        <Header />
+    {/*     <Header /> */}
         <main>
           {children}
         </main>
-        <Footer />
+      {/*   <Footer /> */}
       </body>
     </html>
   );
